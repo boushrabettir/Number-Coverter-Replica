@@ -57,6 +57,7 @@ body {
 
 .my-form .inputoutput #number-result {
    background: #FEF6EB;
+   pointer-events: none;
 }
 
 .my-form .choices {
