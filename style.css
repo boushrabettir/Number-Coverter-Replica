@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  font-family: 'Josefin Sans', san-serif;
+  text-transform: uppercase;
+
+}
+
+body {
+   background-color: #ebebd5;
+}
+
+.my-form {
+  margin: 50px;
+}
+.my-form span {
+  font-size: 50px;
+}
+
+.my-form .title {
+  font-size: 60px;
+  color: #74828F;
+}
+
+.my-form .box {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 5em;
+  background-color:  #415371;
+  width: 50em;
+  padding: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 20px;
+  box-shadow: 0 0 30px #464658;
+}
+.my-form h2 {
+  color: #171721;
+  margin: 10px;
+  background-color: #8b8b8d;
+  width: 10em;
+  text-align: center;
+  padding: 20px;
+  
+}
+.my-form .inputoutput {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+ 
+}
+
+.my-form .nameofconversion {
+  text-transform: uppercase;
+  color: #212436;
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+.my-form .inputoutput #number-input {
+   background: #FEF6EB;
+}
+
+.my-form .inputoutput #number-result {
+   background: #FEF6EB;
+  pointer-events: none;
+}
+
+.my-form .choices {
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.my-form .choices #inputType {
+  font-size: 15px;
+  background-color: #FEF6EB;
+  padding: 10px;
+}
+
+.my-form .choices #resultType{
+  font-size: 15px;
+   background-color: #FEF6EB;
+  padding: 10px;
+}
