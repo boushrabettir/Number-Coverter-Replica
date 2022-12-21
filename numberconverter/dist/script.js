@@ -26,6 +26,6 @@ function Results(theArray){
     // we get the input.value which converted to a Number, 
     //to do: study lines 27-29 a little more -- understanding is minimal
     //to do: understand more of the "theArray.target"
-    result.value = (Number(input.value) * conversionArray[inputTypeValue]/conversionArray[resultTypeValue]).toFixed(5);
+    result.value = (Number(input.value) * conversionArray[inputTypeValue]/conversionArray[resultTypeValue]).toFixed(2);
   }
 }

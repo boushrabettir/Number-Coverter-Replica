@@ -1,44 +1,49 @@
 * {
   margin: 0;
- 
- 
+  font-family: 'Josefin Sans', san-serif;
+  text-transform: uppercase;
+
 }
 
 body {
-   background-color: #FEF6EB;
-  
+   background-color: #ebebd5;
 }
 
 .my-form {
-  text-align: center;
-  line-height: 60px;
-  margin: 40px;
-  background-color: #525564;
-  max-width: 35%;
-  padding: 80px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  z-index: 20;
-  border-radius: 30px;
-  box-shadow: 0 0 25px gray;
-  
-
+  margin: 50px;
 }
-
 .my-form span {
   font-size: 50px;
 }
 
 .my-form .title {
   font-size: 60px;
-  width: 150%;
-  text-transform: uppercase;
-  font-family: 'Roboto Slab', san-serif;
   color: #74828F;
- 
 }
 
+.my-form .box {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 5em;
+  background-color:  #415371;
+  width: 50em;
+  padding: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 20px;
+  box-shadow: 0 0 30px #464658;
+}
+.my-form h2 {
+  color: #171721;
+  margin: 10px;
+  background-color: #8b8b8d;
+  width: 10em;
+  text-align: center;
+  padding: 20px;
+  
+}
 .my-form .inputoutput {
   display: flex;
   justify-content: center;
@@ -49,7 +54,9 @@ body {
 
 .my-form .nameofconversion {
   text-transform: uppercase;
-  color: #BEB9B5;
+  color: #212436;
+  margin-bottom: 20px;
+  font-size: 50px;
 }
 .my-form .inputoutput #number-input {
    background: #FEF6EB;
@@ -57,6 +64,7 @@ body {
 
 .my-form .inputoutput #number-result {
    background: #FEF6EB;
+  pointer-events: none;
 }
 
 .my-form .choices {
@@ -68,9 +76,11 @@ body {
 .my-form .choices #inputType {
   font-size: 15px;
   background-color: #FEF6EB;
+  padding: 10px;
 }
 
 .my-form .choices #resultType{
   font-size: 15px;
    background-color: #FEF6EB;
+  padding: 10px;
 }
