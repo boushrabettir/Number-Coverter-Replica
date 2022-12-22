@@ -10,7 +10,6 @@ let inputValueWeight = document.getElementById('inputType2');
 let resultValueWeight = document.getElementById('resultType2');
 let inputTypeValue2, resultTypeValue2;
 
-
 input.addEventListener('change', Results); //keyup when a keyboard is released 
 inputValue.addEventListener('change', Results); //input also changes
 resultValue.addEventListener('change', Results); // when it is done changing
@@ -40,7 +39,6 @@ function Results(theArray){
   }
 }
 
-
 const weightObject = {
   //used the smallest weight for relative conversions: oz
   oz: 1,
@@ -57,7 +55,3 @@ function WeightResult(e){
     resultWeight.value = (Number(inputWeight.value) *  weightObject[inputTypeValue2]/weightObject[resultTypeValue2]).toFixed(3);
   }
 }
-
-
-
-
