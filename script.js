@@ -1,10 +1,12 @@
+//these are for the length/distance conversions
 let input = document.getElementById('number-input');
 let result = document.getElementById('number-result');
 let inputValue = document.getElementById('inputType');
 let resultValue = document.getElementById('resultType');
 let inputTypeValue, resultTypeValue;
 
-let inputWeight = document.getElementById('number-input2');
+//these are for the weight conversions
+let inputWeight = document.getElementById('number-input2'); 
 let resultWeight = document.getElementById('number-result2');
 let inputValueWeight = document.getElementById('inputType2');
 let resultValueWeight = document.getElementById('resultType2');
