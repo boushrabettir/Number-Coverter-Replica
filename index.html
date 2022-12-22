@@ -1,20 +1,15 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
-
-
 
 <div class="my-form">
   <label class = "title">Number Converter</label>
@@ -34,6 +29,8 @@
     <option value = "meters"> Meters </option>
     <option value = "cm"> Centimeters </option>
     <option value = "inches"> Inches </option>
+    <option value = "km"> Kilometers </option>
+    <option value = "deci"> Decimeter </option>
     </select>
     
     <select id = "resultType">
@@ -41,11 +38,36 @@
     <option value = "meters"> Meters </option>
     <option value = "cm"> Centimeters </option>
     <option value = "inches"> Inches </option>
+    <option value = "km"> Kilometers </option>
+    <option value = "deci"> Decimeter </option>
     </select>
   </div>
-
-  </div>
+ </div>
   
+<div class = "box">
+  <h1 class = "nameofconversion"> Weight </h1>
+  <div class = "inputoutput">
+  <input id="number-input2" type="text" placeholder = "Input">
+   <span> = </span>
+  <input id="number-result2" type="text" placeholder = "Result">
+  </div>
+     
+  <div class = "choices">
+    <select id = "inputType2">
+    <option value = "lb"> lb </option>
+    <option value = "oz"> oz </option>
+    <option value = "kilogram"> kilograms </option>
+    <option value = "grams"> grams </option>
+    </select>
+    
+    <select id = "resultType2">
+    <option value = "lb"> lb </option>
+    <option value = "oz"> oz </option>
+    <option value = "kilogram"> kilograms </option>
+    <option value = "grams"> grams </option>
+    </select>
+  </div>
+ </div>
+</div> 
 </div>
-
 </html>
